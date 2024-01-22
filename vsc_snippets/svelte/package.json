@@ -1,0 +1,35 @@
+{
+  "name": "svelte-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "svelte",
+        "path": "./sveltekit.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./sveltekit.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./sveltekit.json"
+      },
+      {
+        "language": "html",
+        "path": "./sveltekit.json"
+      },
+      {
+        "language": "svelte",
+        "path": "./svelte-base.json"
+      },
+      {
+        "language": "svelte",
+        "path": "./svelte-script.json"
+      },
+      {
+        "language": "svelte",
+        "path": "./svelte-style.json"
+      }
+    ]
+  }
+}

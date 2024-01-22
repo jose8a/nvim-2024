@@ -1,0 +1,23 @@
+{
+  "name": "lit-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./lit-common-1.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./lit-class.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./lit-class-ts.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./lit-common-alt.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,283 @@
+// This is generated file from voronenko/plantuml-stdlib-snippets-vscode
+{
+
+  "inc awslib/ARVR": {
+    "scope": "diagram",
+    "prefix": ["iall-arvr"],
+    "body": ["!include <awslib/ARVR/all>"],
+    "description": "arvr aws icons"
+  },
+
+  "inc awslib/AWSCostManagement": {
+    "scope": "diagram",
+    "prefix": ["iall-awscostmanagement"],
+    "body": ["!include <awslib/AWSCostManagement/all>"],
+    "description": "awscostmanagement aws icons"
+  },
+
+  "inc awslib/Analytics": {
+    "scope": "diagram",
+    "prefix": ["iall-analytics"],
+    "body": ["!include <awslib/Analytics/all>"],
+    "description": "analytics aws icons"
+  },
+
+  "inc awslib/ApplicationIntegration": {
+    "scope": "diagram",
+    "prefix": ["iall-applicationintegration"],
+    "body": ["!include <awslib/ApplicationIntegration/all>"],
+    "description": "applicationintegration aws icons"
+  },
+
+  "inc awslib/Blockchain": {
+    "scope": "diagram",
+    "prefix": ["iall-blockchain"],
+    "body": ["!include <awslib/Blockchain/all>"],
+    "description": "blockchain aws icons"
+  },
+
+  "inc awslib/BusinessApplications": {
+    "scope": "diagram",
+    "prefix": ["iall-businessapplications"],
+    "body": ["!include <awslib/BusinessApplications/all>"],
+    "description": "businessapplications aws icons"
+  },
+
+  "inc awslib/Compute": {
+    "scope": "diagram",
+    "prefix": ["iall-compute"],
+    "body": ["!include <awslib/Compute/all>"],
+    "description": "compute aws icons"
+  },
+
+  "inc awslib/CustomerEnablement": {
+    "scope": "diagram",
+    "prefix": ["iall-customerenablement"],
+    "body": ["!include <awslib/CustomerEnablement/all>"],
+    "description": "customerenablement aws icons"
+  },
+
+  "inc awslib/CustomerEngagement": {
+    "scope": "diagram",
+    "prefix": ["iall-customerengagement"],
+    "body": ["!include <awslib/CustomerEngagement/all>"],
+    "description": "customerengagement aws icons"
+  },
+
+  "inc awslib/Database": {
+    "scope": "diagram",
+    "prefix": ["iall-database"],
+    "body": ["!include <awslib/Database/all>"],
+    "description": "database aws icons"
+  },
+
+  "inc awslib/DeveloperTools": {
+    "scope": "diagram",
+    "prefix": ["iall-developertools"],
+    "body": ["!include <awslib/DeveloperTools/all>"],
+    "description": "developertools aws icons"
+  },
+
+  "inc awslib/EndUserComputing": {
+    "scope": "diagram",
+    "prefix": ["iall-endusercomputing"],
+    "body": ["!include <awslib/EndUserComputing/all>"],
+    "description": "endusercomputing aws icons"
+  },
+
+  "inc awslib/GameTech": {
+    "scope": "diagram",
+    "prefix": ["iall-gametech"],
+    "body": ["!include <awslib/GameTech/all>"],
+    "description": "gametech aws icons"
+  },
+
+  "inc awslib/General": {
+    "scope": "diagram",
+    "prefix": ["iall-general"],
+    "body": ["!include <awslib/General/all>"],
+    "description": "general aws icons"
+  },
+
+  "inc awslib/GroupIcons": {
+    "scope": "diagram",
+    "prefix": ["iall-groupicons"],
+    "body": ["!include <awslib/GroupIcons/all>"],
+    "description": "groupicons aws icons"
+  },
+
+  "inc awslib/InternetOfThings": {
+    "scope": "diagram",
+    "prefix": ["iall-internetofthings"],
+    "body": ["!include <awslib/InternetOfThings/all>"],
+    "description": "internetofthings aws icons"
+  },
+
+  "inc awslib/MachineLearning": {
+    "scope": "diagram",
+    "prefix": ["iall-machinelearning"],
+    "body": ["!include <awslib/MachineLearning/all>"],
+    "description": "machinelearning aws icons"
+  },
+
+  "inc awslib/ManagementAndGovernance": {
+    "scope": "diagram",
+    "prefix": ["iall-managementandgovernance"],
+    "body": ["!include <awslib/ManagementAndGovernance/all>"],
+    "description": "managementandgovernance aws icons"
+  },
+
+  "inc awslib/MediaServices": {
+    "scope": "diagram",
+    "prefix": ["iall-mediaservices"],
+    "body": ["!include <awslib/MediaServices/all>"],
+    "description": "mediaservices aws icons"
+  },
+
+  "inc awslib/MigrationAndTransfer": {
+    "scope": "diagram",
+    "prefix": ["iall-migrationandtransfer"],
+    "body": ["!include <awslib/MigrationAndTransfer/all>"],
+    "description": "migrationandtransfer aws icons"
+  },
+
+  "inc awslib/Mobile": {
+    "scope": "diagram",
+    "prefix": ["iall-mobile"],
+    "body": ["!include <awslib/Mobile/all>"],
+    "description": "mobile aws icons"
+  },
+
+  "inc awslib/NetworkingAndContentDelivery": {
+    "scope": "diagram",
+    "prefix": ["iall-networkingandcontentdelivery"],
+    "body": ["!include <awslib/NetworkingAndContentDelivery/all>"],
+    "description": "networkingandcontentdelivery aws icons"
+  },
+
+  "inc awslib/QuantumTechnologies": {
+    "scope": "diagram",
+    "prefix": ["iall-quantumtechnologies"],
+    "body": ["!include <awslib/QuantumTechnologies/all>"],
+    "description": "quantumtechnologies aws icons"
+  },
+
+  "inc awslib/Robotics": {
+    "scope": "diagram",
+    "prefix": ["iall-robotics"],
+    "body": ["!include <awslib/Robotics/all>"],
+    "description": "robotics aws icons"
+  },
+
+  "inc awslib/Satellite": {
+    "scope": "diagram",
+    "prefix": ["iall-satellite"],
+    "body": ["!include <awslib/Satellite/all>"],
+    "description": "satellite aws icons"
+  },
+
+  "inc awslib/SecurityIdentityAndCompliance": {
+    "scope": "diagram",
+    "prefix": ["iall-securityidentityandcompliance"],
+    "body": ["!include <awslib/SecurityIdentityAndCompliance/all>"],
+    "description": "securityidentityandcompliance aws icons"
+  },
+
+  "inc awslib/Storage": {
+    "scope": "diagram",
+    "prefix": ["iall-storage"],
+    "body": ["!include <awslib/Storage/all>"],
+    "description": "storage aws icons"
+  },
+
+  "Include AWSCommon (not AWSSimplified)": {
+    "scope": "diagram",
+    "prefix": ["ial-common"],
+    "body": ["!include <awslib/AWSCommon>"],
+    "description": "aws common look"
+  },
+  "Include AWSSimplified (not AWSCommon)": {
+    "scope": "diagram",
+    "prefix": ["ial-simplified"],
+    "body": ["!include <awslib/AWSSimplified>"],
+    "description": "aws simplified look"
+  },
+  "Include awslib all sprites": {
+    "scope": "diagram",
+    "prefix": ["ial-all"],
+    "body": [
+      "!include <awslib/AWSCommon>",
+      
+      ,"!include <awslib/ARVR/all>"
+      
+      ,"!include <awslib/AWSCostManagement/all>"
+      
+      ,"!include <awslib/Analytics/all>"
+      
+      ,"!include <awslib/ApplicationIntegration/all>"
+      
+      ,"!include <awslib/Blockchain/all>"
+      
+      ,"!include <awslib/BusinessApplications/all>"
+      
+      ,"!include <awslib/Compute/all>"
+      
+      ,"!include <awslib/CustomerEnablement/all>"
+      
+      ,"!include <awslib/CustomerEngagement/all>"
+      
+      ,"!include <awslib/Database/all>"
+      
+      ,"!include <awslib/DeveloperTools/all>"
+      
+      ,"!include <awslib/EndUserComputing/all>"
+      
+      ,"!include <awslib/GameTech/all>"
+      
+      ,"!include <awslib/General/all>"
+      
+      ,"!include <awslib/GroupIcons/all>"
+      
+      ,"!include <awslib/InternetOfThings/all>"
+      
+      ,"!include <awslib/MachineLearning/all>"
+      
+      ,"!include <awslib/ManagementAndGovernance/all>"
+      
+      ,"!include <awslib/MediaServices/all>"
+      
+      ,"!include <awslib/MigrationAndTransfer/all>"
+      
+      ,"!include <awslib/Mobile/all>"
+      
+      ,"!include <awslib/NetworkingAndContentDelivery/all>"
+      
+      ,"!include <awslib/QuantumTechnologies/all>"
+      
+      ,"!include <awslib/Robotics/all>"
+      
+      ,"!include <awslib/Satellite/all>"
+      
+      ,"!include <awslib/SecurityIdentityAndCompliance/all>"
+      
+      ,"!include <awslib/Storage/all>"
+      
+    ],
+    "description": "awslib include all categories"
+  },
+  "Include awslib mostused sprites": {
+    "scope": "diagram",
+    "prefix": ["ial-all-mostused"],
+    "body": [
+      "!include <awslib/AWSCommon>",
+      "!include <awslib/Compute/all>",
+      "!include <awslib/Database/all>",
+      "!include <awslib/General/all>",
+      "!include <awslib/GroupIcons/all>",
+      "!include <awslib/Mobile/all>",
+      "!include <awslib/Storage/all>"
+    ],
+    "description": "awslib include most used categories"
+  }
+
+}

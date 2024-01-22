@@ -1,0 +1,19 @@
+{
+  "name": "wc-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./wc.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./stencil.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./fast.json"
+      }
+    ]
+  }
+}

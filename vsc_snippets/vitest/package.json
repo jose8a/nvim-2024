@@ -1,0 +1,40 @@
+{
+  "name": "js-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "astro", "svelte"],
+        "path": "./assertion.json"
+      },
+      {
+        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "astro", "svelte"],
+        "path": "./describe.json"
+      },
+      {
+        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "astro", "svelte"],
+        "path": "./expect.json"
+      },
+
+      {
+        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "astro", "svelte"],
+        "path": "./import.json"
+      },
+      {
+        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "astro", "svelte"],
+        "path": "./it.json"
+      },
+      {
+        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "astro", "svelte"],
+        "path": "./mock.json"
+      },
+      {
+        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "astro", "svelte"],
+        "path": "./setup.json"
+      },
+      {
+        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "astro", "svelte"],
+        "path": "./test.json"
+      }
+    ]
+  }
+}

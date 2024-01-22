@@ -1,0 +1,27 @@
+{
+  "name": "css-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./all.json"
+      },
+      {
+        "language": "css",
+        "path": "./grid.json"
+      },
+      {
+        "language": "css",
+        "path": "./flex.json"
+      },
+      {
+        "language": "css",
+        "path": "./one-liners.json"
+      },
+      {
+        "language": "css",
+        "path": "./reset.json"
+      }
+    ]
+  }
+}

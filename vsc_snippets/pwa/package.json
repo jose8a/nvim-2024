@@ -1,0 +1,19 @@
+{
+  "name": "pwa-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./javascript.json"
+      },
+      {
+        "language": "html",
+        "path": "./html.json"
+      },
+      {
+        "language": "manifest",
+        "path": "./manifest.json"
+      }
+    ]
+  }
+}

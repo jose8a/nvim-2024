@@ -1,0 +1,149 @@
+{
+    "Rounded edges node": {
+        "prefix": "mer-flowchart:node:rounded",
+        "body": [
+            "$1(\"$2\")"
+        ],
+        "description": "Rounded edges node"
+    },
+    "Stadium-shaped node": {
+        "prefix": "mer-flowchart:node:stadium",
+        "body": [
+            "$1([\"$2\"])"
+        ],
+        "description": "Stadium-shaped node"
+    },
+    "Subroutine shape node": {
+        "prefix": "mer-flowchart:node:subroutine",
+        "body": [
+            "$1[[\"$2\"]]"
+        ],
+        "description": "Subroutine shape node"
+    },
+    "Cylindrical shape node": {
+        "prefix": "mer-flowchart:node:cylinder",
+        "body": [
+            "$1[(\"$2\")]"
+        ],
+        "description": "Cylindrical node"
+    },
+    "Circle node": {
+        "prefix": "mer-flowchart:node:circle",
+        "body": [
+            "$1((\"$2\"))"
+        ],
+        "description": "Circle node"
+    },
+    "Asymmetric node": {
+        "prefix": "mer-flowchart:node:asymmetric",
+        "body": [
+            "$1>\"$2\"]"
+        ],
+        "description": "Asymmetric node"
+    },
+    "Rhombus node": {
+        "prefix": "mer-flowchart:node:rhombus",
+        "body": [
+            "$1{\"$2\"}"
+        ],
+        "description": "Rhombus node"
+    },
+    "Hexagon node": {
+        "prefix": "mer-flowchart:node:hexagon",
+        "body": [
+            "$1{{\"$2\"}}"
+        ],
+        "description": "Hexagon node"
+    },
+    "Parallegram node": {
+        "prefix": "mer-flowchart:node:parallegram",
+        "body": [
+            "$1[/\"$2\"/]"
+        ],
+        "description": "Parallegram node"
+    },
+    "Alt parallegram node": {
+        "prefix": "mer-flowchart:node:parallegram-alt",
+        "body": [
+            "$1[\\\"$2\"\\]"
+        ],
+        "description": "Alt Parallegram node"
+    },
+    "Trapezoid node": {
+        "prefix": "mer-flowchart:node:trapezoid",
+        "body": [
+            "$1[/\"$2\"\\]"
+        ],
+        "description": "Trapezoid node"
+    },
+    "Alt Trapezoid node": {
+        "prefix": "mer-flowchart:node:trapezoid-alt",
+        "body": [
+            "$1[\\\"$2\"/]"
+        ],
+        "description": "Alt Trapezoid node"
+    },
+
+    "Link": {
+        "prefix": "mer-flowchart:link:normal",
+        "body": [
+            "$1 --$2 $3"
+        ],
+        "description": "Link, you must specify arrow type"
+    },
+    "Link with text": {
+        "prefix": "mer-flowchart:link:normal-with-text",
+        "body": [
+            "$1 --$2|$3| $4"
+        ],
+        "description": "Link with text, you must specify arrow type"
+    },
+
+    "Bidirectional link": {
+        "prefix": "mer-flowchart:link:normal:bi",
+        "body": [
+            "$1 $2--$3 $4"
+        ],
+        "description": "Bidirectional link, you must specify arrow type"
+    },
+    "Bidirectional link with text": {
+        "prefix": "mer-flowchart:link:normal-with-text:bi",
+        "body": [
+            "$1 $2--$3|$4| $5"
+        ],
+        "description": "Bidirectional link with text, you must specify arrow type"
+    },
+
+    "Subgraph": {
+        "prefix": "mer-flowchart:subgraph",
+        "body": [
+            "subgraph $1[\"$2\"]",
+            "end"
+        ],
+        "description": "Subgraph"
+    },
+
+    "BR": {
+        "prefix": "mer-html:br",
+        "body": [
+            "<br>"
+        ],
+        "description": "Newline of HTML"
+    },
+
+    "Class": {
+        "prefix": "mer-flowchart:class:define",
+        "body": [
+            "classDef $1 $2"
+        ],
+        "description": "Define a class, you can use attributes such as fill, stroke, stroke-width, color, and stroke-dasharray"
+    },
+
+    "Apply a class": {
+        "prefix": "mer-flowchart:class:apply",
+        "body": [
+            "class $1 $2"
+        ],
+        "description": "Apply a class, class ID className"
+    }
+}

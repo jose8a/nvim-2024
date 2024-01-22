@@ -1,0 +1,65 @@
+{
+  "wComponent": {
+    "prefix": "wc-base-class",
+    "body": [
+      "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} extends HTMLElement {",
+      "\tconstructor() {",
+      "\t\tsuper();",
+      "\t\t//${1:implementation}",
+      "\t}\n",
+      "\tconnectedCallback() {",
+      "\t\t//${1:implementation}",
+      "\t}\n",
+      "\tdisconnectedCallback() {",
+      "\t\t//${1:implementation}",
+      "\t}\n",
+      "\tattributeChangedCallback(name, oldVal, newVal) {",
+      "\t\t//${1:implementation}",
+      "\t}\n",
+      "\tadoptedCallback() {",
+      "\t\t//${1:implementation}",
+      "\t}\n",
+      "}",
+      "",
+      "const tagName = ${TM_FILENAME_BASE/(.*)/${1:/downcase}/g}",
+      "",
+      "if(!window.customElements.get(tagName)) {",
+      "\twindow.customElements.define(tagName, ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g});",
+      "}"
+    ],
+    "description": "Basic Web Component"
+  },
+  "wcObservedAttributes": {
+    "prefix": "wc-observed-attrs",
+    "body": [
+      "static get observedAttributes() {",
+      "\treturn ['${1:attrName}'];",
+      "}"
+    ],
+    "description": "Define `observedAttributes`"
+  },
+  "wcAdoptedCallback": {
+    "prefix": "wc-adopted-cb",
+    "body": ["static get adoptedCallback() {", "\t//${1:implementation}", "}"],
+    "description": "Define `adoptedCallback`"
+  },
+  "wcAttributeChangedCallback": {
+    "prefix": "wc-attribute-changed-cb",
+    "body": [
+      "attributeChangedCallback(name, oldVal, newVal) {",
+      "\t//${1:implementation}",
+      "}"
+    ],
+    "description": "Define `attributeChangedCallback`"
+  },
+  "wcSlot": {
+    "prefix": "wc-slot",
+    "body": ["<slot></slot>"],
+    "description": "Define <slot>"
+  },
+  "wcSlotNamed": {
+    "prefix": "wc-slot-named",
+    "body": ["<slot name=\"${1:slotName}\"></slot>"],
+    "description": "Define <slot> with name"
+  }
+}

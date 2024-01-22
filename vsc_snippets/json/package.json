@@ -1,0 +1,11 @@
+{
+	"name": "json-snippets",
+	"contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./json.json"
+      }
+    ]
+  }
+}

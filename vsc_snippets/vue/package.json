@@ -1,0 +1,27 @@
+{
+  "name": "javascript-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./vue-base.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue-template.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue-script.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue-router.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue-ignore.json"
+      }
+    ]
+  }
+}

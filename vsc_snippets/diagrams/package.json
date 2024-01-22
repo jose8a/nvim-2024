@@ -1,0 +1,11 @@
+{
+  "name": "diagram-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "all",
+        "path": "./mermaid.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2373 @@
+{
+  "Flexbox": {
+    "prefix": "css-flx-",
+    "description": "Flexbox",
+    "body": [
+      "display: flex;"
+    ]
+  },
+  "Flexbox horizontal": {
+    "prefix": "css-flx-h",
+    "description": "Flexbox horizontal",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;"
+    ]
+  },
+  "Flexbox horizontal top": {
+    "prefix": "css-flx-ht",
+    "description": "Flexbox horizontal top",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Flexbox horizontal top left": {
+    "prefix": "css-flx-htl",
+    "description": "Flexbox horizontal top left",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Flexbox horizontal top center": {
+    "prefix": "css-flx-htc",
+    "description": "Flexbox horizontal top center",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: center;"
+    ]
+  },
+  "Flexbox horizontal top right": {
+    "prefix": "css-flx-htr",
+    "description": "Flexbox horizontal top right",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Flexbox horizontal top stretch": {
+    "prefix": "css-flx-hts",
+    "description": "Flexbox horizontal top stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "align-items: stretch;"
+    ]
+  },
+  "Flexbox horizontal top space-betwee": {
+    "prefix": "css-flx-htsb",
+    "description": "Flexbox horizontal top space-betwee",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Flexbox horizontal top space-around": {
+    "prefix": "css-flx-htsa",
+    "description": "Flexbox horizontal top space-around",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Flexbox horizontal top space-evenly": {
+    "prefix": "css-flx-htse",
+    "description": "Flexbox horizontal top space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Flexbox horizontal middle": {
+    "prefix": "css-flx-hm",
+    "description": "Flexbox horizontal middle",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: center;"
+    ]
+  },
+  "Flexbox horizontal middle left": {
+    "prefix": "css-flx-hml",
+    "description": "Flexbox horizontal middle left",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Flexbox horizontal middle center": {
+    "prefix": "css-flx-hmc",
+    "description": "Flexbox horizontal middle center",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: center;"
+    ]
+  },
+  "Flexbox horizontal middle right": {
+    "prefix": "css-flx-hmr",
+    "description": "Flexbox horizontal middle right",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Flexbox horizontal middle stretch": {
+    "prefix": "css-flx-hms",
+    "description": "Flexbox horizontal middle stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "align-items: stretch;"
+    ]
+  },
+  "Flexbox horizontal middle space-betwee": {
+    "prefix": "css-flx-hmsb",
+    "description": "Flexbox horizontal middle space-betwee",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Flexbox horizontal middle space-around": {
+    "prefix": "css-flx-hmsa",
+    "description": "Flexbox horizontal middle space-around",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Flexbox horizontal middle space-evenly": {
+    "prefix": "css-flx-hmse",
+    "description": "Flexbox horizontal middle space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Flexbox horizontal bottom": {
+    "prefix": "css-flx-hb",
+    "description": "Flexbox horizontal bottom",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Flexbox horizontal bottom left": {
+    "prefix": "css-flx-hbl",
+    "description": "Flexbox horizontal bottom left",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Flexbox horizontal bottom center": {
+    "prefix": "css-flx-hbc",
+    "description": "Flexbox horizontal bottom center",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: center;"
+    ]
+  },
+  "Flexbox horizontal bottom right": {
+    "prefix": "css-flx-hbr",
+    "description": "Flexbox horizontal bottom right",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Flexbox horizontal bottom stretch": {
+    "prefix": "css-flx-hbs",
+    "description": "Flexbox horizontal bottom stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "align-items: stretch;"
+    ]
+  },
+  "Flexbox horizontal bottom space-betwee": {
+    "prefix": "css-flx-hbsb",
+    "description": "Flexbox horizontal bottom space-betwee",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Flexbox horizontal bottom space-around": {
+    "prefix": "css-flx-hbsa",
+    "description": "Flexbox horizontal bottom space-around",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Flexbox horizontal bottom space-evenly": {
+    "prefix": "css-flx-hbse",
+    "description": "Flexbox horizontal bottom space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Flexbox horizontal stretch": {
+    "prefix": "css-flx-hs",
+    "description": "Flexbox horizontal stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: stretch;"
+    ]
+  },
+  "Flexbox horizontal stretch left": {
+    "prefix": "css-flx-hsl",
+    "description": "Flexbox horizontal stretch left",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: stretch;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Flexbox horizontal stretch center": {
+    "prefix": "css-flx-hsc",
+    "description": "Flexbox horizontal stretch center",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: stretch;",
+      "justify-content: center;"
+    ]
+  },
+  "Flexbox horizontal stretch right": {
+    "prefix": "css-flx-hsr",
+    "description": "Flexbox horizontal stretch right",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: stretch;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Flexbox horizontal stretch stretch": {
+    "prefix": "css-flx-hss",
+    "description": "Flexbox horizontal stretch stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: stretch;",
+      "align-items: stretch;"
+    ]
+  },
+  "Flexbox horizontal stretch space-betwee": {
+    "prefix": "css-flx-hssb",
+    "description": "Flexbox horizontal stretch space-betwee",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: stretch;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Flexbox horizontal stretch space-around": {
+    "prefix": "css-flx-hssa",
+    "description": "Flexbox horizontal stretch space-around",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: stretch;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Flexbox horizontal stretch space-evenly": {
+    "prefix": "css-flx-hsse",
+    "description": "Flexbox horizontal stretch space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: stretch;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Flexbox horizontal baseline": {
+    "prefix": "css-flx-hl",
+    "description": "Flexbox horizontal baseline",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: baseline;"
+    ]
+  },
+  "Flexbox horizontal baseline left": {
+    "prefix": "css-flx-hll",
+    "description": "Flexbox horizontal baseline left",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: baseline;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Flexbox horizontal baseline center": {
+    "prefix": "css-flx-hlc",
+    "description": "Flexbox horizontal baseline center",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: baseline;",
+      "justify-content: center;"
+    ]
+  },
+  "Flexbox horizontal baseline right": {
+    "prefix": "css-flx-hlr",
+    "description": "Flexbox horizontal baseline right",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: baseline;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Flexbox horizontal baseline stretch": {
+    "prefix": "css-flx-hls",
+    "description": "Flexbox horizontal baseline stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: baseline;",
+      "align-items: stretch;"
+    ]
+  },
+  "Flexbox horizontal baseline space-betwee": {
+    "prefix": "css-flx-hlsb",
+    "description": "Flexbox horizontal baseline space-betwee",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: baseline;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Flexbox horizontal baseline space-around": {
+    "prefix": "css-flx-hlsa",
+    "description": "Flexbox horizontal baseline space-around",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: baseline;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Flexbox horizontal baseline space-evenly": {
+    "prefix": "css-flx-hlse",
+    "description": "Flexbox horizontal baseline space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-direction: row;",
+      "align-items: baseline;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Flexbox vertical": {
+    "prefix": "css-flx-v",
+    "description": "Flexbox vertical",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;"
+    ]
+  },
+  "Flexbox vertical top": {
+    "prefix": "css-flx-vt",
+    "description": "Flexbox vertical top",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Flexbox vertical top left": {
+    "prefix": "css-flx-vtl",
+    "description": "Flexbox vertical top left",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Flexbox vertical top center": {
+    "prefix": "css-flx-vtc",
+    "description": "Flexbox vertical top center",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: center;"
+    ]
+  },
+  "Flexbox vertical top right": {
+    "prefix": "css-flx-vtr",
+    "description": "Flexbox vertical top right",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Flexbox vertical top stretch": {
+    "prefix": "css-flx-vts",
+    "description": "Flexbox vertical top stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: stretch;"
+    ]
+  },
+  "Flexbox vertical middle": {
+    "prefix": "css-flx-vm",
+    "description": "Flexbox vertical middle",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: center;"
+    ]
+  },
+  "Flexbox vertical middle left": {
+    "prefix": "css-flx-vml",
+    "description": "Flexbox vertical middle left",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Flexbox vertical middle center": {
+    "prefix": "css-flx-vmc",
+    "description": "Flexbox vertical middle center",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: center;"
+    ]
+  },
+  "Flexbox vertical middle right": {
+    "prefix": "css-flx-vmr",
+    "description": "Flexbox vertical middle right",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Flexbox vertical middle stretch": {
+    "prefix": "css-flx-vms",
+    "description": "Flexbox vertical middle stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: stretch;"
+    ]
+  },
+  "Flexbox vertical vertical bottom": {
+    "prefix": "css-flx-vb",
+    "description": "Flexbox vertical vertical bottom",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Flexbox vertical vertical bottom left": {
+    "prefix": "css-flx-vbl",
+    "description": "Flexbox vertical vertical bottom left",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Flexbox vertical vertical bottom center": {
+    "prefix": "css-flx-vbc",
+    "description": "Flexbox vertical vertical bottom center",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: center;"
+    ]
+  },
+  "Flexbox vertical vertical bottom right": {
+    "prefix": "css-flx-vbr",
+    "description": "Flexbox vertical vertical bottom right",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Flexbox vertical vertical bottom stretch": {
+    "prefix": "css-flx-vbs",
+    "description": "Flexbox vertical vertical bottom stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: stretch;"
+    ]
+  },
+  "Flexbox vertical space-between": {
+    "prefix": "css-flx-vsb",
+    "description": "Flexbox vertical space-between",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Flexbox vertical space-between left": {
+    "prefix": "css-flx-vsbl",
+    "description": "Flexbox vertical space-between left",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Flexbox vertical space-between center": {
+    "prefix": "css-flx-vsbc",
+    "description": "Flexbox vertical space-between center",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: center;"
+    ]
+  },
+  "Flexbox vertical space-between right": {
+    "prefix": "css-flx-vsbr",
+    "description": "Flexbox vertical space-between right",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Flexbox vertical space-around": {
+    "prefix": "css-flx-vsa",
+    "description": "Flexbox vertical space-around",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Flexbox vertical space-around left": {
+    "prefix": "css-flx-vsal",
+    "description": "Flexbox vertical space-around left",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Flexbox vertical space-around center": {
+    "prefix": "css-flx-vsac",
+    "description": "Flexbox vertical space-around center",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: center;"
+    ]
+  },
+  "Flexbox vertical space-around right": {
+    "prefix": "css-flx-vsar",
+    "description": "Flexbox vertical space-around right",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Flexbox vertical space-evenly": {
+    "prefix": "css-flx-vse",
+    "description": "Flexbox vertical space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Flexbox vertical space-evenly left": {
+    "prefix": "css-flx-vsel",
+    "description": "Flexbox vertical space-evenly left",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Flexbox vertical space-evenly center": {
+    "prefix": "css-flx-vsec",
+    "description": "Flexbox vertical space-evenly center",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: center;"
+    ]
+  },
+  "Flexbox vertical space-evenly right": {
+    "prefix": "css-flx-vser",
+    "description": "Flexbox vertical space-evenly right",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Flexbox vertical space-evenly stretch": {
+    "prefix": "css-flx-vses",
+    "description": "Flexbox vertical space-evenly stretch",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline flexbox": {
+    "prefix": "css-flx-inl-b",
+    "description": "Inline flexbox",
+    "body": [
+      "display: inline-flex;"
+    ]
+  },
+  "Inline flexbox horizontal": {
+    "prefix": "css-flx-inl-bh",
+    "description": "Inline flexbox horizontal",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;"
+    ]
+  },
+  "Inline flexbox horizontal top": {
+    "prefix": "css-flx-inl-bht",
+    "description": "Inline flexbox horizontal top",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline flexbox horizontal top left": {
+    "prefix": "css-flx-inl-bhtl",
+    "description": "Inline flexbox horizontal top left",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline flexbox horizontal top center": {
+    "prefix": "css-flx-inl-bhtc",
+    "description": "Inline flexbox horizontal top center",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline flexbox horizontal top right": {
+    "prefix": "css-flx-inl-bhtr",
+    "description": "Inline flexbox horizontal top right",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline flexbox horizontal top stretch": {
+    "prefix": "css-flx-inl-bhts",
+    "description": "Inline flexbox horizontal top stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline flexbox horizontal top space-betwee": {
+    "prefix": "css-flx-inl-bhtsb",
+    "description": "Inline flexbox horizontal top space-betwee",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Inline flexbox horizontal top space-around": {
+    "prefix": "css-flx-inl-bhtsa",
+    "description": "Inline flexbox horizontal top space-around",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Inline flexbox horizontal top space-evenly": {
+    "prefix": "css-flx-inl-bhtse",
+    "description": "Inline flexbox horizontal top space-evenly",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Inline flexbox horizontal middle": {
+    "prefix": "css-flx-inl-bhm",
+    "description": "Inline flexbox horizontal middle",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: center;"
+    ]
+  },
+  "Inline flexbox horizontal middle left": {
+    "prefix": "css-flx-inl-bhml",
+    "description": "Inline flexbox horizontal middle left",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline flexbox horizontal middle center": {
+    "prefix": "css-flx-inl-bhmc",
+    "description": "Inline flexbox horizontal middle center",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline flexbox horizontal middle right": {
+    "prefix": "css-flx-inl-bhmr",
+    "description": "Inline flexbox horizontal middle right",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline flexbox horizontal middle stretch": {
+    "prefix": "css-flx-inl-bhms",
+    "description": "Inline flexbox horizontal middle stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline flexbox horizontal middle space-betwee": {
+    "prefix": "css-flx-inl-bhmsb",
+    "description": "Inline flexbox horizontal middle space-betwee",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Inline flexbox horizontal middle space-around": {
+    "prefix": "css-flx-inl-bhmsa",
+    "description": "Inline flexbox horizontal middle space-around",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Inline flexbox horizontal middle space-evenly": {
+    "prefix": "css-flx-inl-bhmse",
+    "description": "Inline flexbox horizontal middle space-evenly",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Inline flexbox horizontal bottom": {
+    "prefix": "css-flx-inl-bhb",
+    "description": "Inline flexbox horizontal bottom",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline flexbox horizontal bottom left": {
+    "prefix": "css-flx-inl-bhbl",
+    "description": "Inline flexbox horizontal bottom left",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline flexbox horizontal bottom center": {
+    "prefix": "css-flx-inl-bhbc",
+    "description": "Inline flexbox horizontal bottom center",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline flexbox horizontal bottom right": {
+    "prefix": "css-flx-inl-bhbr",
+    "description": "Inline flexbox horizontal bottom right",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline flexbox horizontal bottom stretch": {
+    "prefix": "css-flx-inl-bhbs",
+    "description": "Inline flexbox horizontal bottom stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline flexbox horizontal bottom space-betwee": {
+    "prefix": "css-flx-inl-bhbsb",
+    "description": "Inline flexbox horizontal bottom space-betwee",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Inline flexbox horizontal bottom space-around": {
+    "prefix": "css-flx-inl-bhbsa",
+    "description": "Inline flexbox horizontal bottom space-around",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Inline flexbox horizontal bottom space-evenly": {
+    "prefix": "css-flx-inl-bhbse",
+    "description": "Inline flexbox horizontal bottom space-evenly",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Inline flexbox vertical": {
+    "prefix": "css-flx-inl-bv",
+    "description": "Inline flexbox vertical",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;"
+    ]
+  },
+  "Inline flexbox vertical top": {
+    "prefix": "css-flx-inl-bvt",
+    "description": "Inline flexbox vertical top",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline flexbox vertical top left": {
+    "prefix": "css-flx-inl-bvtl",
+    "description": "Inline flexbox vertical top left",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline flexbox vertical top center": {
+    "prefix": "css-flx-inl-bvtc",
+    "description": "Inline flexbox vertical top center",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: center;"
+    ]
+  },
+  "Inline flexbox vertical top right": {
+    "prefix": "css-flx-inl-bvtr",
+    "description": "Inline flexbox vertical top right",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline flexbox vertical top stretch": {
+    "prefix": "css-flx-inl-bvts",
+    "description": "Inline flexbox vertical top stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline flexbox vertical middle": {
+    "prefix": "css-flx-inl-bvm",
+    "description": "Inline flexbox vertical middle",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline flexbox vertical middle left": {
+    "prefix": "css-flx-inl-bvml",
+    "description": "Inline flexbox vertical middle left",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline flexbox vertical middle center": {
+    "prefix": "css-flx-inl-bvmc",
+    "description": "Inline flexbox vertical middle center",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: center;"
+    ]
+  },
+  "Inline flexbox vertical middle right": {
+    "prefix": "css-flx-inl-bvmr",
+    "description": "Inline flexbox vertical middle right",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline flexbox vertical middle stretch": {
+    "prefix": "css-flx-inl-bvms",
+    "description": "Inline flexbox vertical middle stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline flexbox vertical vertical bottom": {
+    "prefix": "css-flx-inl-bvb",
+    "description": "Inline flexbox vertical vertical bottom",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline flexbox vertical vertical bottom left": {
+    "prefix": "css-flx-inl-bvbl",
+    "description": "Inline flexbox vertical vertical bottom left",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline flexbox vertical vertical bottom center": {
+    "prefix": "css-flx-inl-bvbc",
+    "description": "Inline flexbox vertical vertical bottom center",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: center;"
+    ]
+  },
+  "Inline flexbox vertical vertical bottom right": {
+    "prefix": "css-flx-inl-bvbr",
+    "description": "Inline flexbox vertical vertical bottom right",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline flexbox vertical vertical bottom stretch": {
+    "prefix": "css-flx-inl-bvbs",
+    "description": "Inline flexbox vertical vertical bottom stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline flexbox vertical space-between": {
+    "prefix": "css-flx-inl-bvsb",
+    "description": "Inline flexbox vertical space-between",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Inline flexbox vertical space-between left": {
+    "prefix": "css-flx-inl-bvsbl",
+    "description": "Inline flexbox vertical space-between left",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline flexbox vertical space-between center": {
+    "prefix": "css-flx-inl-bvsbc",
+    "description": "Inline flexbox vertical space-between center",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline flexbox vertical space-between right": {
+    "prefix": "css-flx-inl-bvsbr",
+    "description": "Inline flexbox vertical space-between right",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline flexbox vertical space-around": {
+    "prefix": "css-flx-inl-bvsa",
+    "description": "Inline flexbox vertical space-around",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Inline flexbox vertical space-around left": {
+    "prefix": "css-flx-inl-bvsal",
+    "description": "Inline flexbox vertical space-around left",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline flexbox vertical space-around center": {
+    "prefix": "css-flx-inl-bvsac",
+    "description": "Inline flexbox vertical space-around center",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline flexbox vertical space-around right": {
+    "prefix": "css-flx-inl-bvsar",
+    "description": "Inline flexbox vertical space-around right",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline flexbox vertical space-evenly": {
+    "prefix": "css-flx-inl-bvse",
+    "description": "Inline flexbox vertical space-evenly",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Inline flexbox vertical space-evenly left": {
+    "prefix": "css-flx-inl-bvsel",
+    "description": "Inline flexbox vertical space-evenly left",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline flexbox vertical space-evenly center": {
+    "prefix": "css-flx-inl-bvsec",
+    "description": "Inline flexbox vertical space-evenly center",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: center;"
+    ]
+  },
+  "Inline flexbox vertical space-evenly right": {
+    "prefix": "css-flx-inl-bvser",
+    "description": "Inline flexbox vertical space-evenly right",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline flexbox vertical space-evenly stretch": {
+    "prefix": "css-flx-inl-bvses",
+    "description": "Inline flexbox vertical space-evenly stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: stretch;"
+    ]
+  },
+  "Wrap flexbox": {
+    "prefix": "css-flx-wr-b",
+    "description": "Wrap flexbox",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;"
+    ]
+  },
+  "Wrap flexbox horizontal": {
+    "prefix": "css-flx-wr-bh",
+    "description": "Wrap flexbox horizontal",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;"
+    ]
+  },
+  "Wrap flexbox horizontal top": {
+    "prefix": "css-flx-wr-bht",
+    "description": "Wrap flexbox horizontal top",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Wrap flexbox horizontal top left": {
+    "prefix": "css-flx-wr-bhtl",
+    "description": "Wrap flexbox horizontal top left",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Wrap flexbox horizontal top center": {
+    "prefix": "css-flx-wr-bhtc",
+    "description": "Wrap flexbox horizontal top center",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: center;"
+    ]
+  },
+  "Wrap flexbox horizontal top right": {
+    "prefix": "css-flx-wr-bhtr",
+    "description": "Wrap flexbox horizontal top right",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Wrap flexbox horizontal top stretch": {
+    "prefix": "css-flx-wr-bhts",
+    "description": "Wrap flexbox horizontal top stretch",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "align-items: stretch;"
+    ]
+  },
+  "Wrap flexbox horizontal top space-betwee": {
+    "prefix": "css-flx-wr-bhtsb",
+    "description": "Wrap flexbox horizontal top space-betwee",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Wrap flexbox horizontal top space-around": {
+    "prefix": "css-flx-wr-bhtsa",
+    "description": "Wrap flexbox horizontal top space-around",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Wrap flexbox horizontal top space-evenly": {
+    "prefix": "css-flx-wr-bhtse",
+    "description": "Wrap flexbox horizontal top space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Wrap flexbox horizontal middle": {
+    "prefix": "css-flx-wr-bhm",
+    "description": "Wrap flexbox horizontal middle",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;"
+    ]
+  },
+  "Wrap flexbox horizontal middle left": {
+    "prefix": "css-flx-wr-bhml",
+    "description": "Wrap flexbox horizontal middle left",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Wrap flexbox horizontal middle center": {
+    "prefix": "css-flx-wr-bhmc",
+    "description": "Wrap flexbox horizontal middle center",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: center;"
+    ]
+  },
+  "Wrap flexbox horizontal middle right": {
+    "prefix": "css-flx-wr-bhmr",
+    "description": "Wrap flexbox horizontal middle right",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Wrap flexbox horizontal middle stretch": {
+    "prefix": "css-flx-wr-bhms",
+    "description": "Wrap flexbox horizontal middle stretch",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "align-items: stretch;"
+    ]
+  },
+  "Wrap flexbox horizontal middle space-betwee": {
+    "prefix": "css-flx-wr-bhmsb",
+    "description": "Wrap flexbox horizontal middle space-betwee",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Wrap flexbox horizontal middle space-around": {
+    "prefix": "css-flx-wr-bhmsa",
+    "description": "Wrap flexbox horizontal middle space-around",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Wrap flexbox horizontal middle space-evenly": {
+    "prefix": "css-flx-wr-bhmse",
+    "description": "Wrap flexbox horizontal middle space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Wrap flexbox horizontal bottom": {
+    "prefix": "css-flx-wr-bhb",
+    "description": "Wrap flexbox horizontal bottom",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Wrap flexbox horizontal bottom left": {
+    "prefix": "css-flx-wr-bhbl",
+    "description": "Wrap flexbox horizontal bottom left",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Wrap flexbox horizontal bottom center": {
+    "prefix": "css-flx-wr-bhbc",
+    "description": "Wrap flexbox horizontal bottom center",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: center;"
+    ]
+  },
+  "Wrap flexbox horizontal bottom right": {
+    "prefix": "css-flx-wr-bhbr",
+    "description": "Wrap flexbox horizontal bottom right",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Wrap flexbox horizontal bottom stretch": {
+    "prefix": "css-flx-wr-bhbs",
+    "description": "Wrap flexbox horizontal bottom stretch",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "align-items: stretch;"
+    ]
+  },
+  "Wrap flexbox horizontal bottom space-betwee": {
+    "prefix": "css-flx-wr-bhbsb",
+    "description": "Wrap flexbox horizontal bottom space-betwee",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Wrap flexbox horizontal bottom space-around": {
+    "prefix": "css-flx-wr-bhbsa",
+    "description": "Wrap flexbox horizontal bottom space-around",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Wrap flexbox horizontal bottom space-evenly": {
+    "prefix": "css-flx-wr-bhbse",
+    "description": "Wrap flexbox horizontal bottom space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Wrap flexbox vertical": {
+    "prefix": "css-flx-wr-bv",
+    "description": "Wrap flexbox vertical",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;"
+    ]
+  },
+  "Wrap flexbox vertical top": {
+    "prefix": "css-flx-wr-bvt",
+    "description": "Wrap flexbox vertical top",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Wrap flexbox vertical top left": {
+    "prefix": "css-flx-wr-bvtl",
+    "description": "Wrap flexbox vertical top left",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Wrap flexbox vertical top center": {
+    "prefix": "css-flx-wr-bvtc",
+    "description": "Wrap flexbox vertical top center",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: center;"
+    ]
+  },
+  "Wrap flexbox vertical top right": {
+    "prefix": "css-flx-wr-bvtr",
+    "description": "Wrap flexbox vertical top right",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Wrap flexbox vertical top stretch": {
+    "prefix": "css-flx-wr-bvts",
+    "description": "Wrap flexbox vertical top stretch",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: stretch;"
+    ]
+  },
+  "Wrap flexbox vertical middle": {
+    "prefix": "css-flx-wr-bvm",
+    "description": "Wrap flexbox vertical middle",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;"
+    ]
+  },
+  "Wrap flexbox vertical middle left": {
+    "prefix": "css-flx-wr-bvml",
+    "description": "Wrap flexbox vertical middle left",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Wrap flexbox vertical middle center": {
+    "prefix": "css-flx-wr-bvmc",
+    "description": "Wrap flexbox vertical middle center",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: center;"
+    ]
+  },
+  "Wrap flexbox vertical middle right": {
+    "prefix": "css-flx-wr-bvmr",
+    "description": "Wrap flexbox vertical middle right",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Wrap flexbox vertical middle stretch": {
+    "prefix": "css-flx-wr-bvms",
+    "description": "Wrap flexbox vertical middle stretch",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: stretch;"
+    ]
+  },
+  "Wrap flexbox vertical vertical bottom": {
+    "prefix": "css-flx-wr-bvb",
+    "description": "Wrap flexbox vertical vertical bottom",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Wrap flexbox vertical vertical bottom left": {
+    "prefix": "css-flx-wr-bvbl",
+    "description": "Wrap flexbox vertical vertical bottom left",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Wrap flexbox vertical vertical bottom center": {
+    "prefix": "css-flx-wr-bvbc",
+    "description": "Wrap flexbox vertical vertical bottom center",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: center;"
+    ]
+  },
+  "Wrap flexbox vertical vertical bottom right": {
+    "prefix": "css-flx-wr-bvbr",
+    "description": "Wrap flexbox vertical vertical bottom right",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Wrap flexbox vertical vertical bottom stretch": {
+    "prefix": "css-flx-wr-bvbs",
+    "description": "Wrap flexbox vertical vertical bottom stretch",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: stretch;"
+    ]
+  },
+  "Wrap flexbox vertical space-between": {
+    "prefix": "css-flx-wr-bvsb",
+    "description": "Wrap flexbox vertical space-between",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Wrap flexbox vertical space-between left": {
+    "prefix": "css-flx-wr-bvsbl",
+    "description": "Wrap flexbox vertical space-between left",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Wrap flexbox vertical space-between center": {
+    "prefix": "css-flx-wr-bvsbc",
+    "description": "Wrap flexbox vertical space-between center",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: center;"
+    ]
+  },
+  "Wrap flexbox vertical space-between right": {
+    "prefix": "css-flx-wr-bvsbr",
+    "description": "Wrap flexbox vertical space-between right",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Wrap flexbox vertical space-around": {
+    "prefix": "css-flx-wr-bvsa",
+    "description": "Wrap flexbox vertical space-around",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Wrap flexbox vertical space-around left": {
+    "prefix": "css-flx-wr-bvsal",
+    "description": "Wrap flexbox vertical space-around left",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Wrap flexbox vertical space-around center": {
+    "prefix": "css-flx-wr-bvsac",
+    "description": "Wrap flexbox vertical space-around center",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: center;"
+    ]
+  },
+  "Wrap flexbox vertical space-around right": {
+    "prefix": "css-flx-wr-bvsar",
+    "description": "Wrap flexbox vertical space-around right",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Wrap flexbox vertical space-evenly": {
+    "prefix": "css-flx-wr-bvse",
+    "description": "Wrap flexbox vertical space-evenly",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Wrap flexbox vertical space-evenly left": {
+    "prefix": "css-flx-wr-bvsel",
+    "description": "Wrap flexbox vertical space-evenly left",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Wrap flexbox vertical space-evenly center": {
+    "prefix": "css-flx-wr-bvsec",
+    "description": "Wrap flexbox vertical space-evenly center",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: center;"
+    ]
+  },
+  "Wrap flexbox vertical space-evenly right": {
+    "prefix": "css-flx-wr-bvser",
+    "description": "Wrap flexbox vertical space-evenly right",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Wrap flexbox vertical space-evenly stretch": {
+    "prefix": "css-flx-wr-bvses",
+    "description": "Wrap flexbox vertical space-evenly stretch",
+    "body": [
+      "display: flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline wrap flexbox": {
+    "prefix": "css-flx-wi-b",
+    "description": "Inline wrap flexbox",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;"
+    ]
+  },
+  "Inline wrap flexbox horizontal": {
+    "prefix": "css-flx-wi-bh",
+    "description": "Inline wrap flexbox horizontal",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;"
+    ]
+  },
+  "Inline wrap flexbox horizontal top": {
+    "prefix": "css-flx-wi-bht",
+    "description": "Inline wrap flexbox horizontal top",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox horizontal top left": {
+    "prefix": "css-flx-wi-bhtl",
+    "description": "Inline wrap flexbox horizontal top left",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox horizontal top center": {
+    "prefix": "css-flx-wi-bhtc",
+    "description": "Inline wrap flexbox horizontal top center",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline wrap flexbox horizontal top right": {
+    "prefix": "css-flx-wi-bhtr",
+    "description": "Inline wrap flexbox horizontal top right",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox horizontal top space-betwee": {
+    "prefix": "css-flx-wi-bhtsb",
+    "description": "Inline wrap flexbox horizontal top space-betwee",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Inline wrap flexbox horizontal top space-around": {
+    "prefix": "css-flx-wi-bhtsa",
+    "description": "Inline wrap flexbox horizontal top space-around",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Inline wrap flexbox horizontal top space-evenly": {
+    "prefix": "css-flx-wi-bhtse",
+    "description": "Inline wrap flexbox horizontal top space-evenly",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-start;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Inline wrap flexbox horizontal middle": {
+    "prefix": "css-flx-wi-bhm",
+    "description": "Inline wrap flexbox horizontal middle",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;"
+    ]
+  },
+  "Inline wrap flexbox horizontal middle left": {
+    "prefix": "css-flx-wi-bhml",
+    "description": "Inline wrap flexbox horizontal middle left",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox horizontal middle center": {
+    "prefix": "css-flx-wi-bhmc",
+    "description": "Inline wrap flexbox horizontal middle center",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline wrap flexbox horizontal middle right": {
+    "prefix": "css-flx-wi-bhmr",
+    "description": "Inline wrap flexbox horizontal middle right",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox horizontal middle space-betwee": {
+    "prefix": "css-flx-wi-bhmsb",
+    "description": "Inline wrap flexbox horizontal middle space-betwee",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Inline wrap flexbox horizontal middle space-around": {
+    "prefix": "css-flx-wi-bhmsa",
+    "description": "Inline wrap flexbox horizontal middle space-around",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Inline wrap flexbox horizontal middle space-evenly": {
+    "prefix": "css-flx-wi-bhmse",
+    "description": "Inline wrap flexbox horizontal middle space-evenly",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: center;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Inline wrap flexbox horizontal bottom": {
+    "prefix": "css-flx-wi-bhb",
+    "description": "Inline wrap flexbox horizontal bottom",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox horizontal bottom left": {
+    "prefix": "css-flx-wi-bhbl",
+    "description": "Inline wrap flexbox horizontal bottom left",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox horizontal bottom center": {
+    "prefix": "css-flx-wi-bhbc",
+    "description": "Inline wrap flexbox horizontal bottom center",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline wrap flexbox horizontal bottom right": {
+    "prefix": "css-flx-wi-bhbr",
+    "description": "Inline wrap flexbox horizontal bottom right",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox horizontal bottom space-betwee": {
+    "prefix": "css-flx-wi-bhbsb",
+    "description": "Inline wrap flexbox horizontal bottom space-betwee",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Inline wrap flexbox horizontal bottom space-around": {
+    "prefix": "css-flx-wi-bhbsa",
+    "description": "Inline wrap flexbox horizontal bottom space-around",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Inline wrap flexbox horizontal bottom space-evenly": {
+    "prefix": "css-flx-wi-bhbse",
+    "description": "Inline wrap flexbox horizontal bottom space-evenly",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: row;",
+      "align-items: flex-end;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Inline wrap flexbox vertical": {
+    "prefix": "css-flx-wi-bv",
+    "description": "Inline wrap flexbox vertical",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;"
+    ]
+  },
+  "Inline wrap flexbox vertical top": {
+    "prefix": "css-flx-wi-bvt",
+    "description": "Inline wrap flexbox vertical top",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox vertical top left": {
+    "prefix": "css-flx-wi-bvtl",
+    "description": "Inline wrap flexbox vertical top left",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox vertical top center": {
+    "prefix": "css-flx-wi-bvtc",
+    "description": "Inline wrap flexbox vertical top center",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: center;"
+    ]
+  },
+  "Inline wrap flexbox vertical top right": {
+    "prefix": "css-flx-wi-bvtr",
+    "description": "Inline wrap flexbox vertical top right",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox vertical top stretch": {
+    "prefix": "css-flx-wi-bvts",
+    "description": "Inline wrap flexbox vertical top stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-start;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline wrap flexbox vertical middle": {
+    "prefix": "css-flx-wi-bvm",
+    "description": "Inline wrap flexbox vertical middle",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline wrap flexbox vertical middle left": {
+    "prefix": "css-flx-wi-bvml",
+    "description": "Inline wrap flexbox vertical middle left",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox vertical middle center": {
+    "prefix": "css-flx-wi-bvmc",
+    "description": "Inline wrap flexbox vertical middle center",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: center;"
+    ]
+  },
+  "Inline wrap flexbox vertical middle right": {
+    "prefix": "css-flx-wi-bvmr",
+    "description": "Inline wrap flexbox vertical middle right",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox vertical middle stretch": {
+    "prefix": "css-flx-wi-bvms",
+    "description": "Inline wrap flexbox vertical middle stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: center;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline wrap flexbox vertical vertical bottom": {
+    "prefix": "css-flx-wi-bvb",
+    "description": "Inline wrap flexbox vertical vertical bottom",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox vertical vertical bottom left": {
+    "prefix": "css-flx-wi-bvbl",
+    "description": "Inline wrap flexbox vertical vertical bottom left",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox vertical vertical bottom center": {
+    "prefix": "css-flx-wi-bvbc",
+    "description": "Inline wrap flexbox vertical vertical bottom center",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: center;"
+    ]
+  },
+  "Inline wrap flexbox vertical vertical bottom right": {
+    "prefix": "css-flx-wi-bvbr",
+    "description": "Inline wrap flexbox vertical vertical bottom right",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox vertical vertical bottom stretch": {
+    "prefix": "css-flx-wi-bvbs",
+    "description": "Inline wrap flexbox vertical vertical bottom stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: flex-end;",
+      "align-items: stretch;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-between": {
+    "prefix": "css-flx-wi-bvsb",
+    "description": "Inline wrap flexbox vertical space-between",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-between;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-between left": {
+    "prefix": "css-flx-wi-bvsbl",
+    "description": "Inline wrap flexbox vertical space-between left",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-between center": {
+    "prefix": "css-flx-wi-bvsbc",
+    "description": "Inline wrap flexbox vertical space-between center",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-between right": {
+    "prefix": "css-flx-wi-bvsbr",
+    "description": "Inline wrap flexbox vertical space-between right",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-between;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-around": {
+    "prefix": "css-flx-wi-bvsa",
+    "description": "Inline wrap flexbox vertical space-around",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-around;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-around left": {
+    "prefix": "css-flx-wi-bvsal",
+    "description": "Inline wrap flexbox vertical space-around left",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-around center": {
+    "prefix": "css-flx-wi-bvsac",
+    "description": "Inline wrap flexbox vertical space-around center",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: center;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-around right": {
+    "prefix": "css-flx-wi-bvsar",
+    "description": "Inline wrap flexbox vertical space-around right",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-around;",
+      "justify-content: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-evenly": {
+    "prefix": "css-flx-wi-bvse",
+    "description": "Inline wrap flexbox vertical space-evenly",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-evenly left": {
+    "prefix": "css-flx-wi-bvsel",
+    "description": "Inline wrap flexbox vertical space-evenly left",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: flex-start;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-evenly center": {
+    "prefix": "css-flx-wi-bvsec",
+    "description": "Inline wrap flexbox vertical space-evenly center",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: center;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-evenly right": {
+    "prefix": "css-flx-wi-bvser",
+    "description": "Inline wrap flexbox vertical space-evenly right",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: flex-end;"
+    ]
+  },
+  "Inline wrap flexbox vertical space-evenly stretch": {
+    "prefix": "css-flx-wi-bvses",
+    "description": "Inline wrap flexbox vertical space-evenly stretch",
+    "body": [
+      "display: inline-flex;",
+      "flex-wrap: wrap;",
+      "flex-direction: column;",
+      "justify-content: space-evenly;",
+      "align-items: stretch;"
+    ]
+  }
+}

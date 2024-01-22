@@ -1,0 +1,78 @@
+{
+  "fastComponent": {
+    "prefix": "wc-fast-component",
+    "body": [
+      "import { FASTElement, css, customElement, attr, html } from '@microsoft/fast-element';\n",
+      "const template = html<${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}>`",
+      "\t<h3>${x => x.greeting} World!</h3>",
+      "`;\n",
+      "const styles = css`",
+      "\t:host {",
+      "\t\t //styles",
+      "\t}",
+      "`;\n",
+      "@customElement({",
+      "\tname: '${TM_FILENAME_BASE/(.*)/${1:/downcase}/g}',",
+      "\ttemplate,",
+      "\tstyles",
+      "})",
+      "export class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} extends FASTElement {",
+      "\t@attr greeting: string = 'Hello';",
+      "\n\t${2://other logic}\n",
+      "}"
+    ],
+    "description": "Basic FASTElement Component"
+  },
+  "fastConnectedCallback": {
+    "prefix": "wc-fast-cb",
+    "body": [
+      "connectedCallback() {",
+      "\tsuper.connectedCallback();",
+      "\t${1://implementation}",
+      "}"
+    ],
+    "description": "connectedCallback() from FASTElement"
+  },
+  "fastDisconnectedCallback": {
+    "prefix": "wc-fast-dcb",
+    "body": [
+      "disconnectedCallback() {",
+      "\tsuper.disconnectedCallback();",
+      "\t${1://implementation}",
+      "}"
+    ],
+    "description": "disconnectedCallback() from FASTElement"
+  },
+  "fastObservable": {
+    "prefix": "wc-fast-observable",
+    "body": [
+      "@observable ${1:observableName}: ${2:observableType} = ${3:value};"
+    ],
+    "description": "@observable decorator from FASTElement"
+  },
+  "fastObservableNotify": {
+    "prefix": "wc-fast-observable-notify",
+    "body": ["Observable.notify(this, '${1:propName}');"],
+    "description": "Observable.notify from FASTElement"
+  },
+  "fastObservableTrack": {
+    "prefix": "wc-fast-observable-track",
+    "body": ["Observable.track(this, '${1:propName}');"],
+    "description": "Observable.track from FASTElement"
+  },
+  "fastAttr": {
+    "prefix": "wc-fast-attr",
+    "body": ["@attr ${1:attrName}: ${2:attrType} = ${3:value};"],
+    "description": "@attr decorator from FASTElement"
+  },
+  "fastDispatchEvent": {
+    "prefix": "wc-fast-dispatch",
+    "body": ["this.\\$emit('${1:eventType}', ${2:value});"],
+    "description": "Dispatch event using this.$emit"
+  },
+  "fastWhen": {
+    "prefix": "wc-fast-when",
+    "body": ["${when(${1:condition}, ${2:templateOrTemplateExpression})}"],
+    "description": "when directive"
+  }
+}
