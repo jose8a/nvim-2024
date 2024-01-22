@@ -51,7 +51,7 @@ return {
       }
     },
 
-    config = function()
+    config = function ()
       -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
       local capabilities = vim.lsp.protocol.make_client_capabilities()
       capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
@@ -59,8 +59,8 @@ return {
       local mason_lspconfig = require('mason-lspconfig')
       local lspconfig = require("lspconfig")
 
-      local on_attach = require('utils.lsp-utils.on_attach');
-      local servers = require('utils.lsp-utils.servers');
+      local on_attach = require('utils.lsp-utils').on_attach
+      local servers = require('utils.lsp-utils').servers
 
       -- [[
       -- lspconfig.tsserver.setup({
