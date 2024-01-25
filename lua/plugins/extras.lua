@@ -8,9 +8,6 @@ return {
   -- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
 
-  -- TMUX
-  { 'christoomey/vim-tmux-navigator' },
-
   -- a 'vim-vinegar'-like file explorer for neovim
   {
     'stevearc/oil.nvim',
