@@ -3,14 +3,21 @@ local map = vim.api.nvim_set_keymap
 local options = { noremap = true }
 
 -- "-----------------------------------"
+--  CONCEALLEVEL SETTINGS
+-- "-----------------------------------"
+-- disable conceal-level
+-- if want to enable conceal, do it manually per file
+set.conceallevel = 0
+
+-- "-----------------------------------"
 --  INDENT SETTINGS
 -- "-----------------------------------"
 set.autoindent = true
 set.smartindent = true
 set.smarttab = true
-set.tabstop = 2
-set.softtabstop = 2
-set.shiftwidth = 2
+set.tabstop = 4
+set.softtabstop = 4
+set.shiftwidth = 4
 set.expandtab = true
 
 
@@ -33,15 +40,7 @@ set.wildignore = {
 
 
 -- "-----------------------------------"
--- " leader affects all of vim, while localleader is meant for a specific buffer,
--- " you generally use localleader based on a filetype.
--- " Using a localleader you can use the same leader-mapping for (slightly) different actions.
--- " or read more about it in the helpfiles:
--- "   -- http://vimdoc.sourceforge.net/htmldoc/map.html#mapleader
 -- "-----------------------------------"
-vim.g.mapleader = ";"                 -- " Want a different map leader than \
-vim.g.maplocalleader = ","            -- " Map a local filetype leader to '\'
-
 set.hidden = true                     -- " Switch between buffers without saving
 set.timeoutlen = 200                  -- " Ever notice a slight lag after typing the
                                       -- " leader key + command? This lowers the timeout.

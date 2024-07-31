@@ -18,7 +18,7 @@ cmd([[
 
     autocmd BufRead,BufNewFile *.md setlocal nospell
     nmap <leader>o :!/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser %<CR>
-    autocmd BufEnter *.md colorscheme onedark
+    autocmd BufEnter *.md colorscheme tokyonight-night
   augroup END
 ]])
 
