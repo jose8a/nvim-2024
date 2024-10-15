@@ -9,6 +9,7 @@ local cmd = vim.cmd
 -- " then, create shortcut to open MD files w/Brave Browser
 -- " finally, set the colorscheme for Markdown files-only"
 -- "-----------------------------------"
+-- autocmd BufEnter *.md colorscheme tokyonight-night
 cmd([[
   augroup ft_markdown
     autocmd!
@@ -18,7 +19,7 @@ cmd([[
 
     autocmd BufRead,BufNewFile *.md setlocal nospell
     nmap <leader>o :!/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser %<CR>
-    autocmd BufEnter *.md colorscheme onedark
+    autocmd BufEnter *.md colorscheme mestizo
   augroup END
 ]])
 

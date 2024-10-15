@@ -1,10 +1,17 @@
--- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
+
+-- "-----------------------------------"
+-- " leader affects all of vim, while localleader is meant for a specific buffer,
+-- " you generally use localleader based on a filetype.
+-- " Using a localleader you can use the same leader-mapping for (slightly) different actions.
+-- " or read more about it in the helpfiles:
+-- "   -- http://vimdoc.sourceforge.net/htmldoc/map.html#mapleader
+-- "-----------------------------------"
 -- vim.g.mapleader = ' '
 -- vim.g.maplocalleader = ' '
-vim.g.mapleader = ';'
-vim.g.maplocalleader = ';'
+vim.g.mapleader = ";"                 -- " Want a different map leader than \
+vim.g.maplocalleader = ","            -- " Map a local filetype leader to '\'
 vim.o.termguicolors = true
 
 
@@ -16,6 +23,7 @@ vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
+vim.wo.relativenumber = false
 
 -- Enable mouse mode
 vim.o.mouse = 'a'

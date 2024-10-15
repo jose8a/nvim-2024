@@ -1,14 +1,37 @@
 return {
   { "hrsh7th/cmp-nvim-lsp" },
 
+
   {
-    -- FIXME: 23/1204 (luasnip loading errors)
-    -- 'L3MON4D3/LuaSnip',
-    -- dependencies = {
-    --   'rafamadriz/friendly-snippets',
-    --   'honza/vim-snippets',
-    -- },
+  -- FIXME: 23/1204 (luasnip loading errors)
+    'L3MON4D3/LuaSnip',
+    keys = function ()
+      return {}
+    end,
+
+    dependencies = {
+      'rafamadriz/friendly-snippets',
+      'honza/vim-snippets',
+    },
+
+    config = function ()
+      local luasnip = require "luasnip"
+
+      luasnip.config.set_config {
+        history = false,
+        updateevents = "TextChanged,TextChangedI",
+      }
+
+      require("luasnip.loaders.from_vscode").lazy_load({ paths = "~/.config/nvim/vsc_snippets/typescript"})
+      require("luasnip.loaders.from_vscode").lazy_load({ paths = "~/.config/nvim/vsc_snippets/svelte"})
+      require("luasnip.loaders.from_vscode").lazy_load({ paths = "~/.config/nvim/vsc_snippets/vue"})
+      require("luasnip.loaders.from_vscode").lazy_load({ paths = "~/.config/nvim/vsc_snippets/markdown"})
+      require("luasnip.loaders.from_vscode").lazy_load({ paths = "~/.config/nvim/vsc_snippets/json"})
+      require("luasnip.loaders.from_vscode").lazy_load({ paths = "~/.config/nvim/vsc_snippets/css"})
+      require("luasnip.loaders.from_vscode").lazy_load({ paths = "~/.config/nvim/vsc_snippets/astro"})
+    end
   },
+
 
   {
     -- Autocompletion
@@ -37,8 +60,8 @@ return {
       -- FIXME: 23/1204 (luasnip loading errors)
       -- FIXME: 23/1214 - this next line is causing errors, so comment out
       -- for now ...
-      -- local luasnip = require 'luasnip'
-      -- luasnip.config.setup {}
+      local luasnip = require('luasnip')
+      luasnip.config.setup({})
 
 
       -- FIXME: 23/1204 (luasnip loading errors)
@@ -49,7 +72,7 @@ return {
         snippet = {
           expand = function(args)
             -- FIXME: 23/1204 (luasnip loading errors)
-            -- luasnip.lsp_expand(args.body)
+            luasnip.lsp_expand(args.body)
           end,
         },
 
@@ -67,8 +90,10 @@ return {
           ['<Tab>'] = cmp.mapping(function(fallback)
             if cmp.visible() then
               cmp.select_next_item()
-            -- FIXME: 23/1204 - elseif luasnip.expand_or_jumpable() then
-              -- FIXME: 23/1204 - luasnip.expand_or_jump()
+            -- FIXME: 23/1204
+            elseif luasnip.expand_or_jumpable() then
+              -- FIXME: 23/1204
+              luasnip.expand_or_jump()
             else
               fallback()
             end
@@ -77,8 +102,8 @@ return {
             if cmp.visible() then
               cmp.select_prev_item()
             -- FIXME: 23/1204 (luasnip loading errors)
-            -- elseif luasnip.jumpable(-1) then
-              -- luasnip.jump(-1)
+            elseif luasnip.jumpable(-1) then
+              luasnip.jump(-1)
             else
               fallback()
             end
@@ -88,7 +113,7 @@ return {
         sources = {
           { name = 'nvim_lsp' },
           -- FIXME: 23/1204 (luasnip loading errors)
-          -- { name = 'luasnip' },
+          { name = 'luasnip' },
           { name = "buffer" },
           { name = "path" },
           { name = "nvim_lua" },

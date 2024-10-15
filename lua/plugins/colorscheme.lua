@@ -12,6 +12,11 @@ return {
     end
   },
 
+  { 'Anfigeno/mestizo.nvim',
+    config = function ()
+      vim.cmd.colorscheme('mestizo')
+    end,
+  },
   { 'rebelot/kanagawa.nvim' },
   { 'tiagovla/tokyodark.nvim' },
   { 'sainnhe/sonokai' },
@@ -28,7 +33,7 @@ return {
     name = 'catppuccin',
     priority = 1000,
     config = function ()
-      vim.cmd.colorscheme('catppuccin')
+      -- vim.cmd.colorscheme('catppuccin')
     end,
   },
   { 'embark-theme/vim', name = 'embark' },

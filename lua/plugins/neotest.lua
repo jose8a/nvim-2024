@@ -5,6 +5,7 @@ return {
   'nvim-neotest/neotest',
 
   dependencies = {
+    'nvim-neotest/nvim-nio',
     'nvim-lua/plenary.nvim',
     'nvim-treesitter/nvim-treesitter',
     'antoinemadec/FixCursorHold.nvim',
@@ -17,13 +18,13 @@ return {
     local neotest = require("neotest")
     local map_opts = { noremap = true, silent = true, nowait = true }
 
-    require('neotest').setup {
+    neotest.setup ({
       adapters = {
         require('neotest-vitest'),
         require('neotest-python'),
         require('neotest-rust')
-      }
-    }
+      },
+    })
 
     vim.keymap.set(
       "n",

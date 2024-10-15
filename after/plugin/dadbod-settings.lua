@@ -36,3 +36,9 @@
 -- ----- -- " Useful if there's a lot of camel case items
 -- ----- let g:completion_matching_ignore_case = 1
 
+-- remap some dadbod mappings due to conflicts w/existing mappings
+-- remap 'SaveQuery' due to conflict
+vim.cmd([[ autocmd FileType dbui nmap <Leader>dw <Plug>(DBUI_SaveQuery) ]])
+
+-- remap 'SaveQuery' due to conflict
+-- vim.api.cmd([[ autocmd FileType dbui nmap <Leader>dw <Plug>(DBUI_SaveQuery) ]])
