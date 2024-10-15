@@ -3,7 +3,8 @@ return {
     -- Adds git releated signs to the gutter, as well as
     -- utilities for managing changes
     'lewis6991/gitsigns.nvim',
-    event = "LazyFile",
+    -- event = { "LazyFile" },
+    event = { "BufReadPost", "BufNewFile" },
 
     opts = {
       -- See `:help gitsigns.txt`
