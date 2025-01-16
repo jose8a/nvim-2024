@@ -36,6 +36,11 @@ require("lazy").setup({
   -- Disable the notifications, but not the checker
   checker = { enabled = true, notify = false },
 
+  -- use the hererocks to eliminate errors in finding the OS-installed luajit
+  rocks = {
+    -- hererocks = false
+  },
+
   performance = {
     rtp = {
       -- disable some rtp plugins

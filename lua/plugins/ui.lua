@@ -25,12 +25,16 @@ return {
     -- See `:help lualine.txt`
     opts = {
       options = {
-        icons_enabled = false,
+        icons_enabled = true,
         -- theme = 'palenight',
-        theme = 'onedark',
+        -- theme = 'onedark',
+        theme = 'powerline_dark',
         component_separators = '|',
         section_separators = '',
       },
+      sections = {
+        lualine_z = {},
+      }
     },
   },
 

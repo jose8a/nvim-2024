@@ -53,7 +53,7 @@ local servers = {
 
   -- ...............
   -- clangd = {},
-  -- gopls = {},
+  gopls = {},
   -- pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
@@ -92,7 +92,10 @@ local servers = {
   },
 
   rust_analyzer = {},
-  tsserver = {},
+  -- tsserver has been deprecated
+  -- tsserver = {},
+  ts_ls = {},
+
   denols = {
     root_dir = {
       root_pattern = {
@@ -102,6 +105,7 @@ local servers = {
     }
   },
 
+  ruff = {},
   pylsp = {
     pylsp = {
       plugins = {

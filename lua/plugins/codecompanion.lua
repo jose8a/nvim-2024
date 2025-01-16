@@ -5,7 +5,7 @@ return {
         "nvim-treesitter/nvim-treesitter",
 
         -- Optional: For using slash commands and variables in the chat buffer
-        "hrsh7th/nvim-cmp",
+        -- "hrsh7th/nvim-cmp",
 
         -- Optional: For using slash commands
         "nvim-telescope/telescope.nvim",

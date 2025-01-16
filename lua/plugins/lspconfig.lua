@@ -39,6 +39,11 @@ return {
     cmd = { "LspInfo", "LspInstall", "LspUninstall" },
 
     dependencies = {
+      -- completions for lsp
+      ---- { 'hrsh7th/nvim-cmp' },
+      ---- { "hrsh7th/cmp-nvim-lsp" },
+      { "saghen/blink.cmp" },
+
       -- Useful status updates for LSP
       { 'j-hui/fidget.nvim', opts = {} },
 
@@ -59,7 +64,10 @@ return {
     config = function ()
       -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
       local capabilities = vim.lsp.protocol.make_client_capabilities()
-      capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+      -- capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+      -- capabilities = require('blink.cmp').get_lsp_capabilities(config.capabilities)
+      capabilities = require('blink.cmp').get_lsp_capabilities(capabilities)
+
 
       local mason_lspconfig = require('mason-lspconfig')
       local lspconfig = require("lspconfig")
