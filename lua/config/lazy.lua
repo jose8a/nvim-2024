@@ -38,7 +38,7 @@ require("lazy").setup({
 
   -- use the hererocks to eliminate errors in finding the OS-installed luajit
   rocks = {
-    -- hererocks = false
+    hererocks = false
   },
 
   performance = {

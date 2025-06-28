@@ -1,4 +1,13 @@
 return {
+  -- override LazyVim floating notifications, and instead show
+  -- them towards the bottom of the file.
+  -- {
+  --   'snacks.nvim',
+  --   opts = {
+  --     notifier = { enabled = false}
+  --   },
+  -- },
+
   -- improve the default vim.ui interfaces
   {
     'stevearc/dressing.nvim',
@@ -23,17 +32,23 @@ return {
     'nvim-lualine/lualine.nvim',
 
     -- See `:help lualine.txt`
+    event = "VeryLazy",
     opts = {
       options = {
         icons_enabled = true,
         -- theme = 'palenight',
         -- theme = 'onedark',
         theme = 'powerline_dark',
-        component_separators = '|',
-        section_separators = '',
+        -- component_separators = '|',
+        -- section_separators = '',
       },
       sections = {
-        lualine_z = {},
+        lualine_c = { "filename" },
+        lualine_x = { "diagnostics" },
+        -- lualine_z = {},
+      },
+      inactive_sections = {
+        -- lualine_z = {},
       }
     },
   },

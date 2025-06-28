@@ -71,7 +71,7 @@ set.showmatch = true                  -- " Show matching brackets
 set.showcmd = true                    -- " Show command in bottom right portion of the screen
 set.visualbell = true                 -- " Set bell to visual rather than to a sound
 set.mousehide = true                  -- " Hide mouse when typing
-set.laststatus = 2                    -- " Always show the status line
+-- set.laststatus = 2                    -- " Always show the status line
 set.linespace = 3                     -- " Prefer a slightly higher line height
 set.backspace = {
    'indent',
