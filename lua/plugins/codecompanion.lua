@@ -22,10 +22,12 @@ return {
       strategies = {
         -- Change the default chat adapter
         chat = {
-          adapter = 'qwen',
+          -- adapter = 'qwen',
+          adapter = 'gpt_oss_20',
         },
         inline = {
-          adapter = 'qwen',
+          -- adapter = 'qwen',
+          adapter = 'gpt_oss_20',
         },
       },
       adapters = {
@@ -35,6 +37,16 @@ return {
             schema = {
               model = {
                 default = 'qwq:32b',
+              },
+            },
+          })
+        end,
+        gpt_oss_20 = function()
+          return require('codecompanion.adapters').extend('ollama', {
+            name = 'gpt_oss_20', -- Give this adapter a different name to differentiate it from the default ollama adapter
+            schema = {
+              model = {
+                default = 'gpt-oss:20b',
               },
             },
           })

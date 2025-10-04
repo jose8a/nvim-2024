@@ -21,6 +21,7 @@ return {
         -- see below for full list of optional dependencies 👇
     },
     opts = {
+        disable_frontmatter = true,
         workspaces = {
             {
                 name = "ml-notes",
