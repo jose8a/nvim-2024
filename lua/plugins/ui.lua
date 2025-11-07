@@ -37,15 +37,20 @@ return {
       options = {
         icons_enabled = true,
         -- theme = 'palenight',
+        -- theme = 'ayu_mirage',
+        theme = 'nord',
         -- theme = 'onedark',
-        theme = 'powerline_dark',
+        -- theme = 'OceanicNext',
+        -- theme = 'tomorrow_night',
         -- component_separators = '|',
         -- section_separators = '',
       },
       sections = {
         lualine_c = { "filename" },
-        lualine_x = { "diagnostics" },
-        -- lualine_z = {},
+        lualine_x = {},
+        -- lualine_y = {},
+        lualine_y = { "diagnostics" },
+        lualine_z = { "progress"},
       },
       inactive_sections = {
         -- lualine_z = {},
