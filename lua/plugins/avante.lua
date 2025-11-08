@@ -61,9 +61,20 @@ return {
       -- Make sure to set this up properly if you have lazy=true
       'MeanderingProgrammer/render-markdown.nvim',
       opts = {
-        file_types = { "markdown", "Avante" },
+        file_types = { "markdown", "quarto", "Avante" },
+        code = {
+          -- disable_background = true,
+          border = 'thin',
+        },
+        heading = {
+          border = true,
+          border_virtual = true,
+        },
       },
-      ft = { "markdown", "Avante" },
+      ft = { "markdown", "quarto", "Avante" },
+      code = {
+        disable_background = true,
+      },
     },
   },
 }
